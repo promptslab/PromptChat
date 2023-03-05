@@ -1,0 +1,33 @@
+@use '../public/styles/theme.scss';
+
+
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: red;
+}
+
+$color-sassy: #cc4397;
+$color-blue: #0059ff;
+
+.app {
+  color: $color-blue;
+  font-size: 2rem;
+  text-align: center;
+
+  .sassyDiv {
+    font-size: 3rem;
+    color: $color-sassy;
+  }
+}
+
+
+.search-form {
+  .MuiInputAdornment-root>span {
+    padding: 0 0.35rem;
+    cursor: pointer;
+  }
+}
